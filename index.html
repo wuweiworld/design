@@ -4,6 +4,7 @@
 <style>
    
     body {
+      overflow: hidden; /* Hide scrollbars */
     background: linear-gradient(178deg, #e4e3ef, #e2f3f6, #fdf4e0, #e4e3ef, #e2f3f6,#fdf4e0, #e4e3ef, #e2f3f6, #fdf4e0, #e4e3ef, #e2f3f6);
     background-size: 30000%;
     animation: AnimationName 10s ease infinite;
@@ -12,7 +13,7 @@
     @keyframes rotatemax {
         0% {transform: scale(100) rotate(0deg);color: red;}
         14% {transform: scale(12) rotate(57deg);color: orange;}
-        28% {transform: scale(200) rotate(114deg);color: yellow;}
+        28% {transform: scale(100) rotate(114deg);color: yellow;}
         42% {transform: rotate(172deg) scale(2);color: green;}
         57% {transform: rotate(230deg);color: blue;}
         71% {transform: rotate(3880deg);color: purple;}

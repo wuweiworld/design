@@ -1,15 +1,40 @@
 
 <html>
+  <title>
+    ≈ dongyi.work ≈
+  </title>
   <head>
 <style>
    
     body {
       overflow: hidden; /* Hide scrollbars */
+      
+/* background animation*/
     background: linear-gradient(178deg, #e4e3ef, #e2f3f6, #fdf4e0, #e4e3ef, #e2f3f6,#fdf4e0, #e4e3ef, #e2f3f6, #fdf4e0, #e4e3ef, #e2f3f6);
     background-size: 30000%;
     animation: AnimationName 10s ease infinite;
+  }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-      h1 {animation: rotatemax linear 10s; animation-delay: 00s;animation-iteration-count: 200;}
+  
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+  
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+  
+/*title animation*/
+   h1 {animation: rotatemax linear 10s; animation-delay: 00s;animation-iteration-count: 200;}
     @keyframes rotatemax {
         0% {transform: scale(100) rotate(0deg);color: red;}
         14% {transform: scale(12) rotate(57deg);color: orange;}
@@ -18,23 +43,6 @@
         57% {transform: rotate(230deg);color: blue;}
         71% {transform: rotate(3880deg);color: purple;}
         100% {transform: scale(100);rotate(360deg); color: red;}
-
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
 </style>
   </head>
   <body>  
